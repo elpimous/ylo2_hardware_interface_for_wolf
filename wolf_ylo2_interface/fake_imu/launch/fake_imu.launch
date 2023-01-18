@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+ 
+  <!-- launch fake_imu -->
+    <node name="fake_imu" 
+          pkg="fake_imu" 
+          type="fake_imu" 
+
+          required="true" 
+          output="screen">
+    </node>
+</launch>
